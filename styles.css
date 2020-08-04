@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -13,6 +14,10 @@ body{
 
 .mail-title {
     color: #424242;
+}
+
+h1 .mail-title b {
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -41,13 +46,26 @@ body{
     
 }
 
-p {
-    color: #72686a;
-}
-
 .profile-pic{
     border-radius: 100%;
-    max-width: 100px;
+    max-width: 70px;
+
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    
+}
+
+.contact-information ul li {
+    list-style-type: none;
+
+}
+
+.contact-information ul li b{
+    color: #2d3743 ;
 }
 
 .mail-footer{
