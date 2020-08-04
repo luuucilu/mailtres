@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.main-logo{
+    color: #353535;
+}
+
+.mail-title {
+    color: #424242;
+}
+
+
+.main-mail p b {
+    color: #686970;
+}
+
+.main-mail{
+    text-align: left;
+    padding: 0 30px;
+}
+
+.main-wrapper{
+    color: #72686a;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.main-wrapper .main-mail{
+    background-color: #ffffff;
+    border-color: #e9e9e9;
+    border-style: solid;
+    border-width: 2px;
+}
+
+p {
+    color: #72686a;
+}
